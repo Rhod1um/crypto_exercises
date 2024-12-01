@@ -128,3 +128,9 @@ print(hashlib.md5(recommend).hexdigest())
 print(hashlib.md5(order).hexdigest())
 # the digest gotten from md5sum in the terminal:
 print("a25f7f0b29ee0b3968c860738533a4b9")
+
+# sha-1 for de samme filer:
+# sha1sum ~/Downloads/recommend.ps
+# sha-2
+# shasum -a 256 ~/Downloads/order.ps
+# de giver forskellig hash

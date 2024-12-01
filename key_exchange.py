@@ -20,7 +20,7 @@ B = (g**b) % p
 
 print("A:", A, ",", "B:", B)
 
-# k=A^.a mod p    k=B^.b mod p
+# k=A^b mod p    k=B^a mod p
 
 k = A**b % p
 
